@@ -1,0 +1,42 @@
+<html>
+	<head>
+	</head>
+	<body>
+		<h1>BlurMe jQuery Plugin</h1>
+		<div>
+			<h2>Usage: </h2>
+			<code>
+				<pre style=" background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+    box-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4), 0 2px 5px rgba(0, 0, 0, 0.4) inset, 0 1px 0 #fff;
+    font-family: monospace;
+    padding: 10px;
+    position: relative;
+    white-space: pre;">
+$('.blur').blurMe({
+	radius: 3 // in pixel
+	svgFallback: "blur.svg" //path to the svg file required for blur fallback
+});
+				</pre>
+			</code>
+		</div>
+		<h2> Demo :</h2>
+		<div style="float:left;width:50%;">
+			<h3>Without Blur Effect</h3>
+			<img src="greenforest.jpg" />
+		</div>
+		<div style="float:left;width:50%;">
+			<h3>With Blur Effect</h3>
+			<img src="greenforest.jpg" class="blur" />
+		</div>
+
+		<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+		<script type="text/javascript" src="lib/blurme.js"></script>
+		<script type="text/javascript">
+			$('.blur').blurMe({
+				radius: 3 // in pixel from 0 to 5
+			});
+
+		</script>
+	</body>
+</html>

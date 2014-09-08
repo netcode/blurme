@@ -1,0 +1,35 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg">
+  <filter id="blur0">
+    <feGaussianBlur stdDeviation="0" />
+  </filter>
+  <filter id="blur0.5">
+    <feGaussianBlur stdDeviation="0.5" />
+  </filter>
+  <filter id="blur1">
+    <feGaussianBlur stdDeviation="1" />
+  </filter>
+  <filter id="blur1.5">
+    <feGaussianBlur stdDeviation="1.5" />
+  </filter>
+  <filter id="blur2">
+    <feGaussianBlur stdDeviation="2" />
+  </filter>
+  <filter id="blur2.5">
+    <feGaussianBlur stdDeviation="2.5" />
+  </filter>
+  <filter id="blur3">
+    <feGaussianBlur stdDeviation="3" />
+  </filter>
+  <filter id="blur3.5">
+    <feGaussianBlur stdDeviation="3.5" />
+  </filter>
+  <filter id="blur4">
+    <feGaussianBlur stdDeviation="4" />
+  </filter>
+  <filter id="blur4.5">
+    <feGaussianBlur stdDeviation="4.5" />
+  </filter>
+  <filter id="blur5">
+    <feGaussianBlur stdDeviation="5" />
+  </filter>
+</svg>
