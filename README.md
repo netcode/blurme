@@ -1,4 +1,4 @@
-Jquery Blur plugin
+JQuery Blur plugin
 ===============
 
 javascript jquery plugin to apply a blur effect in any html element
